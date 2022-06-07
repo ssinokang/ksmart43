@@ -41,6 +41,7 @@ public class GoodsController {
 		return "goods/removeGoods";
 	}
 	
+	
 	@PostMapping("/addGoods")
 	public String addGoods(Goods goods) {
 		
